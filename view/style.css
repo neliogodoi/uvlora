@@ -3,6 +3,18 @@
     font-size: 14pt;
 }
 
+.shadow{
+    box-shadow: 3px 3px 3px #ddd;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.foto{
+    width: 50%;
+}
+
 #logo{
     width: 60%;
     max-width: 500px;
@@ -15,8 +27,7 @@
 #infografico{
     width: 90%;
 }
-
-#resumo{
+.text-note{
     text-align: justify;
     line-height: 35px;
     font-size: 14pt;

@@ -18,51 +18,43 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav nav-tabs">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="row">
-            <div class="col-md-12 header">
+           <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                    
+                        <label for="msg">Your message:</label>
+                        <textarea class="form-control" id="mgs" placeholder="message">
+                        </textarea>
+
+                        <label for="mail">Your email:</label>
+                        <input type="text" class="form-control" id="mail" placeholder="email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+           </div>
+           <div class="col-6">
                 <p class="text-note">
-                    <i>
-                    UVLoRa é uma estação de monitoramento de radiação ultravioleta com Internet das Coisas (IoT - do inglês: Internet of Things via LoRa e WiFi,
-                    com dados exibidos em tela e publicados em tempo real em servidor IoT Cloud. UVLoRa é
-                    um exemplo de ciência cidadã sendo levada a comunidades remotas rurais e litorâneas, um
-                    instrumento para melhorar a saúde pública pois visa conscientizar a população local para
-                    diminuir os riscos de câncer de pele e danos aos olhos devido à radiação ultravioleta.
-                    Inclusão digital também é um objetivo da UVLoRa, pois as comunidades sem cobertura de
-                    rede móvel receberão via LoRa informações de utilidade pública (previsão do clima, datas
-                    de vacinação, etc), exibidas em tela local. O uso de LoRa permitirá uma autonomia da ordem
-                    de 10 anos ao nó LoRa com sensor da UVLoRa, permitindo uma manutenção bem reduzida nas
-                    comunidades remotas.
-                    </i>
+                    <i>-- Aqui você está enviando um e-mail para o endereço do Projeto
+                    UVLoRa, caso queira falar diretamente com um dos envolvidos
+                    neste projeto, vá até a aba About e veja o contato da pessoa
+                    com quem deseja falar.</i>
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 header">
-            <p>
-                <br><br>
-                <img class="img-fluid" id="infografico" src="view/img/infografico uvlora.png"/>
-                <br><br>
-            </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 header">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XEKKgaPzeAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
+           </div>
         </div>
     </div>
     <!-- Optional JavaScript -->
