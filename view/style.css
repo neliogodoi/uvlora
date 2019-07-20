@@ -3,21 +3,16 @@
     font-size: 14pt;
 }
 
-
 #logo{
     width: 60%;
     max-width: 500px;
 }
 
 #logo-navbar{
-    width: 150px;
+    width: 130px;
 }
 
 #infografico{
-    width: 90%;
-}
-
-#player-video{
     width: 90%;
 }
 
